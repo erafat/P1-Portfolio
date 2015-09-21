@@ -1,0 +1,131 @@
+/**************
+General
+***************/
+html {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+}
+
+
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 15px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	/*border: 1px solid red;*/
+}
+
+
+
+
+/***************
+Header
+*************/
+
+header {
+	padding: 100px;
+	height: 640px;
+	background: url('https://farm1.staticflickr.com/333/20109229579_59229d0129_o.jpg') no-repeat center;
+	background-size: cover;
+
+}
+
+
+header .logo {
+	width: 8rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.logo img {
+	width: 100%;
+}
+
+header .container {
+	position: relative;
+	top: 180px;
+	background: rgba(0,0,0,0.7);
+
+}
+
+.wrapper {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.name {
+	font-size: 4rem;
+	font-weight: 100;
+	letter-spacing: .4rem;
+	color: rgba(255,255,255,0.7)
+}
+
+span {
+	color: rgba(255,255,255,1);
+}
+
+
+.maniac {
+	font-size: 1.3rem;
+	font-weight: 300;
+	letter-spacing: .3rem;
+	color: rgba(255,255,255,0.7);
+}
+
+.svg {
+	fill: #fff;
+}
+
+/***************
+Featured Work
+*************/
+
+.features {
+	background: rgba(255,255,255,0.7);
+	padding: 60px;
+}
+
+
+.features-title {
+	text-align: center;
+	margin: 0;
+	padding: 80px;
+	background: #000;
+	font-size: 3rem;
+	font-weight: 100;
+	letter-spacing: .3rem;
+	color: rgba(255,255,255,0.7);
+
+}
+
+
+.projects {
+	flex: auto;
+	width: 360px;
+	margin: .8vw;
+}
+
+.projects img {
+	width: 100%;
+	height: auto; 
+}
+
+
+/***************
+Footer
+*************/
+
+footer {
+	padding-bottom: 60px;
+}
+
+footer h2 {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
